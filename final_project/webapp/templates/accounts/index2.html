@@ -1,0 +1,74 @@
+{%  extends 'accounts/main.html' %}
+{%load static%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>home2</title>
+<style>
+  body {
+    background-image: url(https://www.euroschoolindia.com/wp-content/uploads/2023/10/air-pollution-causes-and-effects-jpg.webp); /* Specify the path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    text-align: center; /* Center align all text */
+  }
+
+  h2 {
+    margin-top: 50px; /* Add some space between the top of the page and the heading */
+  }
+
+  header {
+    margin-top: 50px; /* Add some space between the top of the page and the header */
+  }
+
+  table {
+    margin: 0 auto; /* Center the table horizontally */
+    background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the table */
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h2>Details</h2>
+</header>
+
+<table border="1">
+  <tr>
+    <th>Authors</th>
+    <th>Profile</th>
+
+  </tr>
+  <tr>
+    <td>Guide</td>
+    <td> Guide Name</td>
+  </tr>
+
+  <tr>
+    <td>Student</td>
+    <td>Name1</td>
+
+  </tr>
+  <tr>
+    <td>Student</td>
+    <td>Name2 </td>
+
+  </tr>
+  <tr>
+    <td>Student</td>
+    <td>Name3</td>
+
+  </tr>
+  <tr>
+    <td>Student</td>
+    <td>Name4</td>
+
+  </tr>
+</table>
+
+</body>
+</html>
+{% endblock content %}

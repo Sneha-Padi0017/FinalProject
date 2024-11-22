@@ -1,0 +1,67 @@
+{%  extends 'accounts/main.html' %}
+{%load static%}
+{% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>home3</title>
+<style>
+  /* Background image */
+  body {
+        background-image: url(https://www.euroschoolindia.com/wp-content/uploads/2023/10/air-pollution-causes-and-effects-jpg.webp); /* Specify the path to your background image */
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif; /* Optional: Specify a fallback font */
+    color: #333; /* Default text color */
+  }
+
+  /* Center the heading and points */
+  .heading-points {
+    text-align: center;
+    margin-top: 50px; /* Adjust the margin-top as needed */
+  }
+
+  /* Style the heading */
+  .heading-points h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+
+  /* Style the list */
+  .heading-points ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  /* Style the list items */
+  .heading-points li {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  /* Add some hover effect to the list items */
+  .heading-points li:hover {
+    color: #000;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<section class="heading-points">
+  <h2>Project Contributions</h2>
+  <ul>
+    <li>AQI is used to assess the potential health effects that might be experienced within a few hours or days after breathing in polluted air. </li>
+    <li>To Predict Air Quality Index</li>
+    <li>To Predict Category of Air Quality Index</li>
+
+  </ul>
+</section>
+
+</body>
+</html>
+{% endblock content %}
